@@ -1,33 +1,27 @@
 package com.task.mindvalley.Activity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.core.content.ContextCompat;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.task.mindvalley.Adapter.EmployeesListAdapter;
 import com.task.mindvalley.Employee.Employee;
 import com.task.mindvalley.R;
 import com.task.mindvalley.Utils.Config;
-import com.task.mindvalley.Utils.NetworkUtils;
 import com.task.mindvalley.Utils.StaticMethods;
 
 import org.json.JSONArray;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -35,7 +29,6 @@ import BaseRequest.RequestType;
 import Cache.DataCacheManager;
 import DataRequest.DataLoader;
 import RequestListener.NetworkRequestListener;
-import de.hdodenhof.circleimageview.CircleImageView;
 
 
 /**

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataLoadingLibrary.iml" filepath="$PROJECT_DIR$/DataLoadingLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageLoadingLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageLoadingLibrary.iml" group="ImageLoadingLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImageLoadingLibrary-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImageLoadingLibrary-app.iml" group="ImageLoadingLibrary/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mindvalleydataloadinglibrary/ImageLoadingLibrary-mindvalleydataloadinglibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/mindvalleydataloadinglibrary/ImageLoadingLibrary-mindvalleydataloadinglibrary.iml" group="ImageLoadingLibrary/mindvalleydataloadinglibrary" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mindvalleydataloadinglibrary/mindvalleydataloadinglibrary.iml" filepath="$PROJECT_DIR$/mindvalleydataloadinglibrary/mindvalleydataloadinglibrary.iml" />
     </modules>

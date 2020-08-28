@@ -7,6 +7,6 @@ import com.task.mindvalley.Employee.Employee;
  */
 
 public class Config {
-    public static String Http_Data_Url = "http://pastebin.com/raw/wgkJgazE";
+    public static String Http_Data_Url = "https://pastebin.com/raw/wgkJgazE";
     public static Employee SelectedEmployee = null;
 }

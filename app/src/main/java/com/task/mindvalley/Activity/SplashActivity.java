@@ -1,25 +1,16 @@
 package com.task.mindvalley.Activity;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.View;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.ImageView;
 
 import com.task.mindvalley.R;
-
-import BaseRequest.RequestType;
-import Cache.DataCacheManager;
-import DataRequest.DataLoader;
-import RequestListener.NetworkRequestListener;
 
 
 /**

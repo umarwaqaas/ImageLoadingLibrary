@@ -3,6 +3,7 @@ package Params;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -43,12 +44,16 @@ public class Response {
         final char[] buffer = new char[bufferSize];
         final StringBuilder out = new StringBuilder();
         Reader in = new InputStreamReader(data, "UTF-8");
+      //  BufferedReader r = new BufferedReader(new InputStreamReader(data));
         for (; ; ) {
             int rsz = in.read(buffer, 0, buffer.length);
             if (rsz < 0)
                 break;
             out.append(buffer, 0, rsz);
         }
+//        for (String line; (line = r.readLine()) != null; ) {
+//            out.append(line).append('\n');
+//        }
         if (data != null) {
             data.close();
         }
